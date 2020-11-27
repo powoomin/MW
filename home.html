@@ -1,27 +1,33 @@
 <!doctype html>
 <html lang="ko">
-    <head></head>
-    <body>
-        <style>
-            .blockTag{
-                background-color: burlywood;
-            }
-            .blockTag > div{
-                background-color: rgb(245, 244, 177); 
-                border:1px solid rgb(255, 0, 0);
-            }
- 
-        </style>
-        <div class="blockTag">
-            <div>block 1</div>
-            <div>Hi :D</div>
-            <div>block 2</div>
-            <div>block 3</div>
-        </div>
 
-        <div class="inlineTag">
-            <span>inline 1</span>
-            <span>inline 2</span>
-            <span>inline 3</span>
-        </div>
-    </body>
+<head></head>
+
+<body>
+    <style>
+        .blockTag {
+            background-color: burlywood;
+        }
+
+        .blockTag>div {
+            background-color: rgb(245, 244, 177);
+            border: 3px solid rgb(235, 175, 175);
+        }
+
+        .inlineTag>span {
+            background-color: rgb(179, 195, 226);
+            border: 2px solid rgb(243, 194, 158);
+        }
+    </style>
+    <div class="blockTag">
+        <div>Hi :D</div>
+        <div>block 2</div>
+        <div>block 3</div>
+    </div>
+
+    <div class="inlineTag">
+        <span>inline 1</span>
+        <span>inline 2</span>
+        <span>inline 3</span>
+    </div>
+</body>
